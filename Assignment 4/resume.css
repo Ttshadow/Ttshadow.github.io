@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Karla:wght@400;700&family=Libre+Baskerville:wght@400;700&display=swap');
+
+/* font-family: 'Libre Baskerville', sans-serif;
+font-family: 'Karla', cursive;
+font-family: 'Aritzonia', cursive;
+green: #c3e6d6
+grey: #303030
+*/
+
+body{
+  font-family: 'Karla',sans-serif;
+}
+
+header,footer{
+  background-color: #c3e6d6;
+  color: #303030;
+}
+
+header{
+  font-family: 'Libre Baskerville', sans-serif;
+}
+
+section{
+  font-family: 'Karla', cursive;
+}
+
+.text{
+  font-size: 0.8rem;
+  padding: 10px 10px 0 10px;
+  text-align: justify;
+}
+
+.textHeader{
+  font-size: 0.75rem;
+}
+
+.signName{
+  font-family: 'Aritzonia', cursive;
+}
+
+.icons{
+  font-size: 1.75rem;
+  color: #303030;
+}
+
+.btn-primary{
+  background-color: #c3e6d6;
+  color: #303030;
+  border-color: #c3e6d6;
+}
+
+.btn-primary:hover,.btn-primary:active,.btn-primary:focus{
+  background-color: #8ce6bd;
+  color: #303030;
+  border-color: #8ce6bd;
+}
+
+.greenBar{
+  background-color: #c3e6d6;
+  height: 1.2rem;
+}
+
+.whiteBar{
+  background-color: #303030;
+  height: 1.2rem;
+}
+
+.fa-circle{
+  margin: 0 .1em;
+  color: #c3e6d6;
+}
+
+.darkCircle{
+  color: #303030;
+}
+
+.workYear{
+  background-color: #c3e6d6;
+}
+
+.copyRight{
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width:360px){
+  .text{
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width:400px){
+  .signName{
+    font-size: 0.8rem;
+  }
+  .fa-circle{
+    margin: 0 .08em;
+  }
+  .workYear{
+    font-size: 00.8rem;
+  }
+
+  .textHeader{
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width:330px){
+  .signName{
+    font-size: 0.7rem;
+  }
+}
